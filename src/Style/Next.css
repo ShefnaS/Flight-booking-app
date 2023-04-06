@@ -1,0 +1,168 @@
+.container .row .col-lg-7 #success{
+  border: 1px solid #007B65;
+  background-color:#EAFFFB;
+  color: #007B65;
+  padding: 10px;
+}
+.container .row .col-lg-7 .first-para h3{
+  color: #605DEC;
+}
+.container .row .col-lg-7 .first-para h6{
+  color: #6E7491;
+}
+.container .row .col-lg-7 .first-para p{
+  color: #7C8DB0;
+}
+.container .row .col-lg-7 .summary,
+.container .row .col-lg-7 .price,
+.container .row .col-lg-7 .payment-method,
+.container .row .col-lg-7 .travel,
+.container .row .col-lg-7 .flight-route{
+  color: #6E7491;
+}
+td{
+  color: #6E7491;
+}
+.container .row .col-lg-7 .travel .btn{
+  background-color: #605DEC;
+  color: #EAFFFB;
+}
+.container .row .col-lg-5 .hotels h5,
+.container .row .col-lg-5 .experiences h5{
+  color: #6E7491;
+}
+.container .row .col-lg-5 .hotels p,
+.container .row .col-lg-5 .experiences p{
+  color: #7C8DB0;
+}
+.container .row .col-lg-5 .hotels .card h6,
+.container .row .col-lg-5 .experiences .card h6{
+  color: #6E7491;
+}
+.container .row .col-lg-5 .hotels .btn,
+.container .row .col-lg-5 .experiences .btn{
+  border: 1px solid #605DEC;
+  color: #605DEC;
+}
+.visa {
+    width: 350px;
+    height: 220px;
+    /* background-color: #fff; */
+    background: linear-gradient(to bottom ,#EB568C,#ED5E76);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .visa .card-header {
+    background-color:#EB568C;
+    padding: 20px;
+  }
+  
+  .visa .card-header img {
+    width: 70px;
+    height: auto;
+  }
+  
+  .visa .card-body {
+    padding: 20px;
+    
+  }
+  
+  .visa .card-number {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .visa .card-number span:first-child {
+    margin-right: 5px;
+  }
+  
+  .visa .card-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .visa .card-cvv {
+    font-size: 14px;
+  }
+  
+  .card-owner {
+    font-size: 16px;
+  }
+  
+  
+  .visa .card-number span:last-child {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .visa .card-expiry span:last-child,
+  .visa .card-cvv span:last-child {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  @media(max-width : 769px){
+    .container .row .col-lg-5 .hotels .card{
+      width: 20rem;
+      margin: auto;
+    }
+    .container .row .col-lg-5 .experiences .card{
+      width: 20rem;
+      margin: auto;
+    }
+  }
+
+  @media(max-width : 426px){
+    .container .row .col-lg-7 .travel .form-group .form-control{
+      width: 20rem !important;
+    }
+    .container .row .col-lg-7 .travel .btn{
+      width: 8rem;
+      margin:0px 10px;
+    }
+    .container .row .col-lg-7 .flight-route img{
+       width: 350px;
+       height: 250px;
+    }
+  }
+
+  @media(max-width : 426px){
+    .container .row .col-lg-7 .summary .border{
+      font-size: 0.8rem;
+    }
+    .container .row .col-lg-7 .summary .border img{
+      margin-left: -20px;
+    }
+    .container .row .col-lg-5{
+      padding-left: -20px !important;
+    }
+  }
+  @media(max-width : 321px){
+    .container .row .col-lg-7 .travel .btn{
+      margin-left: 0 !important;
+      width: 7rem;
+      font-size: 0.8rem;
+    }
+    .container .row .col-lg-7 .flight-route img{
+      width: 300px;
+      height: 250px;
+   }
+   .visa{
+    width: 300px;
+    height: 200px;
+   }
+   .container .row .col-lg-7 .travel .form-group .form-control{
+    width: 18rem !important;
+  }
+  }
+  

@@ -1,0 +1,42 @@
+.section-1 .container .row .col-lg-7 h4{
+    color: #605DEC;
+}
+.section-1 .container .row .col-lg-7 p{
+    color: #7C8DB0;
+    
+}
+.section-1 .col-lg-7 .d-flex button{
+    color: #605DEC;
+    font-size: 0.9rem;
+}
+.section-1 .col-lg-7 .d-flex button:hover{
+    background-color: #605DEC;
+    color: white;
+    
+}
+.section-1 .container .row .col-lg-7 h6{
+    color: #6E7491;
+}
+.section-1 .container .row .col-lg-7 label{
+    color: #7C8DB0;
+}
+.section-1 .container .row .col-lg-7 .form-group button{
+    color: #605DEC;
+    border: 1px solid #605DEC;
+}
+#cpay{
+    margin-left: 15rem;
+}
+@media(max-width : 770px){
+    #cpay{
+        margin-left: 10rem !important;
+        width: 50% !important;
+    }
+}
+@media(max-width : 426px){
+    #cpay{
+        margin-left: 15rem;
+        
+    }
+   
+}

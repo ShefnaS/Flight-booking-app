@@ -1,0 +1,42 @@
+#navbar #brand{
+    color:#605DEC;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* #navbar .me-auto{
+    position: fixed !important;
+    z-index: 2;
+    left: 300px !important;
+} */
+#navbar .me-auto .links{
+    color: #7C8DB0;
+    margin-left: 10px;
+}
+#navbar .nav-button{
+    background-color: #605DEC;
+    margin-left: 10px;
+}
+@media (max-width :1200px){
+    #navbar .me-auto{
+        position: relative !important;
+       left: 350px;
+    }
+}
+@media (min-width :1200px){
+    #navbar .me-auto{
+        position: relative !important;
+       left: 500px !important;
+    }
+}
+@media (max-width :800px){
+    #navbar .me-auto{
+        position: relative !important;
+       left: 0px;
+    }
+    #navbar .nav-button{
+        background-color: #605DEC;
+        margin-left: 10px;
+        width: 20%;
+    }
+}

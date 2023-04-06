@@ -1,0 +1,226 @@
+.flight .row .col-lg-5 {
+  position: relative;
+  left: 0;
+}
+.flight .rectangle {
+  margin-left: -800px;
+}
+@media(max-width : 426px){
+  .flight .second{
+    margin-left: -50px;
+    position: relative;
+    top: -1200px;
+    overflow-x: scroll;
+  }
+}
+@media(max-width : 376px){
+  .flight .second{
+    margin-left: -80px;
+  }
+}
+@media(max-width : 376px){
+  .flight .second{
+    margin-left: -100px;
+  }
+}
+.flight .rect1 {
+  position: relative;
+  top: -145rem;
+  left: 150px;
+}
+.flight .high {
+  background-color: #ffffff;
+  position: relative;
+  margin-top: -254em;
+  width: 13rem;
+  margin-left: 154px;
+  border-radius: 8px;
+}
+.flight .mid {
+  position: relative;
+  background-color: #ffffff;
+  width: 210px;
+  margin-left: 154px;
+  padding: 12px, 0px, 12px, 0px;
+  border-radius: 8px;
+}
+
+.flight .row .col-lg-5 .high p {
+  margin: 10px 5px 0px 5px;
+}
+
+.flight .row .col-lg-5 .mid p {
+  margin: 10px 5px 0px 5px;
+}
+.flight .row p {
+  text-align: center;
+}
+
+.flight .high button {
+  height: 40px;
+  width: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(92, 214, 192, 1),
+    rgba(34, 195, 166, 1)
+  );
+
+  margin: 3px 8px;
+  padding: 5px 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+.flight .disable {
+  background-image: linear-gradient(
+    rgba(233, 232, 252, 1),
+    rgba(233, 232, 252, 1)
+  ) !important;
+}
+.flight .disable input[type="checkbox"] {
+  visibility: hidden;
+}
+.flight p {
+  color: rgba(124, 141, 176, 1);
+  text-align: left !important;
+}
+.flight .mid button {
+  height: 36px;
+  width: 25px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(96, 93, 236, 1),
+    rgba(42, 38, 217, 1)
+  );
+  border: none;
+  margin: 5px 2px;
+  padding: 5px 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.flight .high button:hover {
+  background-image: linear-gradient(rgb(31, 103, 91), rgb(37, 123, 109));
+}
+.flight .mid button:hover {
+  background-image: linear-gradient(rgb(20, 52, 122), rgb(37, 44, 123));
+}
+
+.high input[type="checkbox"] {
+  accent-color: rgb(239, 59, 89);
+}
+.mid input[type="checkbox"] {
+  accent-color: rgb(239, 59, 89);
+}
+@media (max-width: 426px) {
+  .flight .rectangle
+   {
+    position: relative;
+    top: 80rem;
+  
+  }
+ 
+  .flight .high,.mid{
+    position: relative;
+    top: 80rem;
+  }
+  .flight .rect1{
+    position: relative;
+    top: -65rem;
+  }
+}
+
+
+.flight .row .col-lg-7 {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(203, 212, 230, 1);
+}
+@media (max-width: 770px) {
+  .flight .row .col-lg-7 .r1 {
+    font-size: 0.9rem !important;
+  }
+  .flight .row .col-lg-7 .r1 h4 {
+    font-size: 1.23em !important;
+  }
+  .flight .row .col-lg-7 .r1 h6 {
+    font-size: 0.9rem !important;
+  }
+}
+@media (max-width: 1025px) {
+  .flight .row .col-lg-7 .section2 span {
+    font-size: 0.7rem !important;
+  }
+  .flight .row .col-lg-7 .section2 h4 {
+    font-size: 0.8rem !important;
+  }
+  .flight .row .col-lg-7 .section2 .row {
+    padding: 0;
+  }
+  .flight .row .col-lg-7 .section2 button {
+    font-size: 0.7rem !important;
+  }
+}
+@media (max-width: 426px) {
+  .flight .row .col-lg-7 .r1 {
+    font-size: 1rem !important;
+  }
+  .flight .row .col-lg-7 .r1 h4 {
+    font-size: 0.9rem !important;
+  }
+  .flight .row .col-lg-7 .r1 h6 {
+    font-size: 0.7rem !important;
+  }
+  .flight .row .col-lg-7 .r2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+@media (max-width: 426px) {
+  .flight .row .col-lg-7 .section2 button {
+    font-size: 0.6rem !important;
+  }
+}
+
+.flight .row .col-lg-7 .r1 .c1,
+.c2,
+.c3 {
+  border: 1px solid #7c8db0;
+  background-color: #27273f;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flight .row .col-lg-7 .r1 .c1:hover,
+.flight .row .col-lg-7 .r1 .c2:hover,
+.flight .row .col-lg-7 .r1 .c3:hover {
+  background-color: #605dec;
+}
+.flight .row .col-lg-7 .section1 .c1 #selected {
+  background-image: linear-gradient(to bottom, #605dec, #2a26d9);
+  border: none;
+  font-size: 1rem;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+}
+.flight .row .col-lg-7 section h4,
+p {
+  color: #7c8db0;
+}
+@media (max-width: 426px) {
+  .flight .row .col-lg-7 {
+    position: relative !important;
+    /* top: 0 !important; */
+    
+    margin: auto;
+  }
+}
