@@ -1,0 +1,61 @@
+.container .passenger .col-lg-7 .info h4 {
+  color: #605dec;
+  font-weight: 600;
+}
+.container .passenger p {
+  color: #7c8db0;
+}
+.container .passenger h5 {
+  color: #6e7491;
+  font-weight: 600;
+}
+.container .passenger .col-lg-7 .info form .d-flex input {
+  justify-content: space-between !important;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+  border: 1px solid #a1b0cc;
+}
+.container .passenger .col-lg-7 .contact-info form .d-flex input {
+  justify-content: space-between !important;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+  border: 1px solid #a1b0cc;
+}
+.container .passenger .col-lg-7 .bag-info table tr {
+  margin-bottom: 20px !important;
+}
+.container .passenger .col-lg-7 .bag-info #save {
+  border: 1px solid #605dec;
+  color: #605dec;
+}
+.container .passenger .col-lg-7 .bag-info #seat {
+    background-color: #CBD4E64D;
+    color: #7C8DB0;
+    border: 1px solid #CBD4E64D;
+}
+.container .passenger .col-lg-5 .luggage img{
+    position: absolute;
+    right: 0;
+}
+@media(max-width: 376px){
+    .container .passenger .col-lg-5 #cpay{
+       margin-left: 180px !important;
+    }
+}
+@media(max-width: 320px){
+    .container .passenger .col-lg-5 #cpay{
+       margin-left: 150px !important;
+    }
+    .luggage img{
+        margin: auto;
+        width: 300px;
+    }
+}
+@media(max-width: 768px){
+  .footer1{
+    margin-top: 400px !important;
+  }
+}
+
